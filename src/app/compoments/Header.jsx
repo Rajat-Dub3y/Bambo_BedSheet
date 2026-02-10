@@ -62,7 +62,7 @@ const Header = () => {
           ))}
           <a
             href="#contact"
-            className="hidden md:inline-flex items-center px-5 py-2.5 rounded-full bg-primary text-foreground text-sm font-medium hover:opacity-90 transition-opacity"
+            className="hidden md:inline-flex items-center px-5 py-2.5 rounded-full bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition-opacity"
             >
             Shop Now
           </a>

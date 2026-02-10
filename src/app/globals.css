@@ -98,6 +98,20 @@ h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
 
+/* Font utility classes (Tailwind doesn't auto-generate these) */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* Color utilities (ensure these exist even if Tailwind doesn't generate them) */
+.text-primary-foreground {
+  color: hsl(var(--primary-foreground));
+}
+
 /* Optional nice defaults */
 a {
   color: inherit;
