@@ -1,4 +1,4 @@
-import { cn } from "@lib/utils";
+import { cn } from "../../lib/utils";
 const TooltipProvider = TooltipPrimitive.Provider;
 const Tooltip = TooltipPrimitive.Root;
 const TooltipTrigger = TooltipPrimitive.Trigger;

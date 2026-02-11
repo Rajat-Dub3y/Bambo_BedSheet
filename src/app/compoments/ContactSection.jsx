@@ -48,7 +48,7 @@ const ContactSection = () => {
               Thank You!
             </h2>
             <p className="text-muted-foreground mb-8">
-              Your message has been received. We'll get back to you within 24 hours.
+              {"Your message has been received. We'll get back to you within 24 hours."}
             </p>
             <button
               onClick={() => {
@@ -74,7 +74,7 @@ const ContactSection = () => {
               Get in Touch
             </p>
             <h2 className="font-display text-3xl sm:text-4xl font-semibold text-foreground mb-6 leading-tight">
-              Questions? We'd Love
+              {"Questions? We'd Love"}
               <br />
               <span className="italic">to Hear From You</span>
             </h2>

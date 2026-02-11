@@ -30,7 +30,7 @@
     "**/*.mts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/hooks/use-toast.js", "src/app/hooks/use-mobile.jsx"  ],
   "exclude": [
     "node_modules"
   ]

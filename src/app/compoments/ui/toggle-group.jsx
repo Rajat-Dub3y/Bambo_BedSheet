@@ -1,4 +1,4 @@
-import { cn } from "@lib/utils";
+import { cn } from "../../lib/utils";
 import { toggleVariants } from "@ui/toggle";
 const ToggleGroupContext = React.createContext({
     size: "default",

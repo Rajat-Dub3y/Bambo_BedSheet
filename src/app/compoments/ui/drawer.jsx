@@ -1,5 +1,5 @@
 from;
-"@lib/utils";
+"../../lib/utils";
 const Drawer = ({ shouldScaleBackground = true, ...props }) => (<DrawerPrimitive.Root shouldScaleBackground={shouldScaleBackground} {...props}/>);
 Drawer.displayName = "Drawer";
 const DrawerTrigger = DrawerPrimitive.Trigger;

@@ -1,5 +1,5 @@
 import { Check, ChevronRight, Circle } from "lucide-react";
-import { cn } from "@lib/utils";
+import { cn } from "../../lib/utils";
 const DropdownMenu = DropdownMenuPrimitive.Root;
 const DropdownMenuTrigger = DropdownMenuPrimitive.Trigger;
 const DropdownMenuGroup = DropdownMenuPrimitive.Group;

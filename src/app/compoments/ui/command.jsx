@@ -1,6 +1,6 @@
 from;
 "lucide-react";
-import { cn } from "@lib/utils";
+import { cn } from "../../lib/utils";
 const Command = React.forwardRef(({ className, ...props }, ref) => (<CommandPrimitive ref={ref} className={cn("flex h-full w-full flex-col overflow-hidden rounded-md bg-popover text-popover-foreground", className)} {...props}/>));
 Command.displayName = CommandPrimitive.displayName;
 const CommandInput = React.forwardRef(({ className, ...props }, ref) => (<div className="flex items-center border-b px-3" cmdk-input-wrapper="">
