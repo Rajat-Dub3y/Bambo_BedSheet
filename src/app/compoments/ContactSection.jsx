@@ -82,9 +82,9 @@ const ContactSection = () => {
               Whether you have a question about our bamboo bedsheets, need sizing advice, or want to learn more about our sustainability mission — our team is here to help.
             </p>
             <div className="space-y-4 text-sm text-muted-foreground">
-              <p>📧 hello@theecoshop.com</p>
-              <p>📞 +44 20 1234 5678</p>
-              <p>📍 London, United Kingdom</p>
+              <p>📧 example@one.com</p>
+              <p>📞 +12 3456789012</p>
+              <p>📍 ABC, EFG </p>
             </div>
           </div>
 
